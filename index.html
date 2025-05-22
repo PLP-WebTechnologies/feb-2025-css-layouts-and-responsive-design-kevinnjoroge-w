@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Responsive Layout with Flexbox and Grid</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">MyWebsite</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="grid-section">
+            <h1>Welcome to My Website</h1>
+            <p>This is a responsive layout example using Flexbox and CSS Grid.</p>
+        </section>
+
+        <section id="about" class="flex-section">
+            <div class="flex-item">About Us</div>
+            <div class="flex-item">Our Mission</div>
+            <div class="flex-item">Our Team</div>
+        </section>
+
+        <section id="services" class="grid-section">
+            <h2>Our Services</h2>
+            <div class="grid-item">Service 1</div>
+            <div class="grid-item">Service 2</div>
+            <div class="grid-item">Service 3</div>
+            <div class="grid-item">Service 4</div>
+        </section>
+
+        <section id="contact" class="flex-section">
+            <h2>Contact Us</h2>
+            <p>Feel free to reach out!</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 MyWebsite. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
